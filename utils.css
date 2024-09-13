@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+    /*all content(means tag item:-ul,imgetc) div which is corner put center*/
+}
+
+.justify-center {
+    justify-content: center;
+    /*div item(list item) put centre */
+}
+
+.container {
+    padding: 0 10vw;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    /*text transform from lower case to upper case*/
+}
+
+.semibold {
+    font-weight: bolder;
+    /*tp change the text boldness*/
+}
+
+.space-around {
+    justify-content: space-around;
+    /*seprate content of div*/
+}
+
+.space-between {
+    justify-content: space-between;
+    /*Space provide between div*/
+}
+
+.mx-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+    /*margin giving in div class*/
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    /*sets whether flex items are forced onto one line or can wrap onto multiple line*/
+}
+
+.my-2 {
+    margin: 12px 0;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    /*margin outside of border = margin->border->padding->text<-padding<-border<-margin*/
+    padding: 0px;
+    /*padding insider of border = margin->border->padding->text<-padding<-border<-margin*/
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    position: sticky;
+    /*sticky means not move whwn cursor scrool up*/
+    top: 0;
+    /*top 0 is used not move up*/
+    background-color: white;
+    /*Here background color is used for all text images are hide when cursor scroll up behind the background */
+    margin: 13px 0;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+}
+
+nav {
+    font-size: 12px;
+    /*text size*/
+    padding-top: 14px;
+}
+
+nav img {
+    width: 37px;
+    /*width=breadth*/
+    height: 23px;
+    /*height=length*/
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+    /*padding apply every word element*/
+}
+
+.section1 {
+    background-color: #f2f2f2;
+}
+
+.search {
+    width: 25vw;
+    /*v is used for large size*/
+    padding: 7px 17px;
+    /*px is used for small size*/
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    /*to define the background effects for element... only effect*/
+    border-radius: 5px;
+    /*to give curved of edges*/
+}
+
+.section-image {
+    width: 80vw;
+    /*width for breadth*/
+    margin: 12px 0;
+}
+
+.section2-image {
+    width: 9vw;
+    margin: 6px 12px;
+    /*First we give margin top-bottom, left-right*/
+    margin-left: 21px;
+    /*we require more margin from left then use*/
+    height: 23vh;
+
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    /*Here we use shadow*/
+}
+
+/*  For desktop ti mobile view...
+
+.containerHeader{ 
+  padding: 0 10vw; 
+}
+
+.itemImg{
+  width: 10vw;
+  margin: 6px 12px;
+}
+
+.tall{
+  min-height: 40vh;
+}
+
+1.) @media (max-width: 450px) {     
+.search {
+    width: 72vw; 
+}
+}
+
+2.)@media (max-width: 1550px) { 
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+}
+
+ .containerHeader {
+    padding: 0 2vw;
+}
+  
+header{ 
+  height:122px;
+}  
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right{ 
+    flex-direction: column;
+  }
+
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+}
+
+*/
